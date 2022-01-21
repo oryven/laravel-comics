@@ -9,7 +9,7 @@
 <body>
     <footer>
 
-        <div class="container-footer">
+        <div class="container">
             <div class="nav">
                 <h4>DC Comics</h4>
                 <ul>

@@ -19,5 +19,7 @@
     @yield('component-test') --}}
 
     @include('componentes.footer')
+
+    @include('componentes.social')
 </body>
 </html>
