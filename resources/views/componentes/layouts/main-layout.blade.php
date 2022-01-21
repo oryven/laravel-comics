@@ -5,18 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <link rel="stylesheet" href="{{asset('css/app.css')}}">
 </head>
 <body>
-    @include('components.header')
+    @include('componentes.header')
 
-    @include('components.jumbo')
+    @include('componentes.jumbo')
 
-    @include('components.main')
+    @include('componentes.main')
 
     {{-- @yield('component')
 
     @yield('component-test') --}}
 
-    @include('components.footer')
+    @include('componentes.footer')
 </body>
 </html>

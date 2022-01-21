@@ -1,1 +1,1 @@
-@extends('layouts.main-layout')
+@extends('componentes.layouts.main-layout')
