@@ -10,18 +10,13 @@
 <body>
     @include('componentes.header')
 
-    @include('componentes.jumbo')
+    @yield('content')
 
-    @include('componentes.main')
-
-    {{-- @yield('component')
-
-    @yield('component-test') --}}
+    {{-- @yield('component-test') --}} 
 
     @include('componentes.loghi')
 
     @include('componentes.footer')
 
-    @include('componentes.social')
 </body>
 </html>

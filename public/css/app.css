@@ -33,7 +33,7 @@
 
 footer {
   height: 300px;
-  background-color: #303030;
+  background-color: #1a1a1a;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -75,12 +75,12 @@ footer .container li {
 
 /* social */
 
-.section-social {
+.social {
   height: 100px;
   background-color: #303030;
 }
 
-.section-social .container {
+.social .container {
   height: 100px;
   display: flex;
   justify-content: space-between;
@@ -88,7 +88,7 @@ footer .container li {
   margin: auto;
 }
 
-.section-social button {
+.social button {
   font-size: 14px;
   border: 2px solid #008CFF;
   background-color: transparent;
@@ -96,7 +96,7 @@ footer .container li {
   padding: 10px;
 }
 
-.section-social div {
+.social div {
   display: flex;
   align-items: center;
   margin-right: 20px;
@@ -105,12 +105,12 @@ footer .container li {
   font-weight: bold;
 }
 
-.section-social ul {
+.social ul {
   display: flex;
   align-items: center;
 }
 
-.section-social ul li {
+.social ul li {
   display: inline-block;
   margin-right: 20px;
 }
