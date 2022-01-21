@@ -8,8 +8,29 @@
     color: #505f6d;
 }
 
-  /* footer */
-  footer {
+// loghi
+
+.section-loghi {
+    background-color: #0282f9;
+    height: 120px;
+    div {
+        display: flex;
+        align-items: center;
+        color: white;
+        width: 80%;
+        margin: auto;
+        height: 100%;
+        text-transform: uppercase;
+        font-size: 12px;
+        img {
+            width: 40px;
+            margin-right: 10px ;
+        }
+    }
+}
+
+/* footer */
+footer {
     height: 300px;
     background-color: #303030;
     // background-image: url("../assets/img/footer-bg.jpg");
@@ -47,7 +68,7 @@
 
 /* social */
 
-section {
+.section-social {
     height: 100px;
     background-color: #303030;
     .container {

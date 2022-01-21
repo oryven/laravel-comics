@@ -8,6 +8,27 @@
   color: #505f6d;
 }
 
+.section-loghi {
+  background-color: #0282f9;
+  height: 120px;
+}
+
+.section-loghi div {
+  display: flex;
+  align-items: center;
+  color: white;
+  width: 80%;
+  margin: auto;
+  height: 100%;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.section-loghi div img {
+  width: 40px;
+  margin-right: 10px;
+}
+
 /* footer */
 
 footer {
@@ -54,12 +75,12 @@ footer .container li {
 
 /* social */
 
-section {
+.section-social {
   height: 100px;
   background-color: #303030;
 }
 
-section .container {
+.section-social .container {
   height: 100px;
   display: flex;
   justify-content: space-between;
@@ -67,7 +88,7 @@ section .container {
   margin: auto;
 }
 
-section button {
+.section-social button {
   font-size: 14px;
   border: 2px solid #008CFF;
   background-color: transparent;
@@ -75,7 +96,7 @@ section button {
   padding: 10px;
 }
 
-section div {
+.section-social div {
   display: flex;
   align-items: center;
   margin-right: 20px;
@@ -84,12 +105,12 @@ section div {
   font-weight: bold;
 }
 
-section ul {
+.section-social ul {
   display: flex;
   align-items: center;
 }
 
-section ul li {
+.section-social ul li {
   display: inline-block;
   margin-right: 20px;
 }

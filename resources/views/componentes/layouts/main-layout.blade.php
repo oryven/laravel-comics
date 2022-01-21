@@ -18,6 +18,8 @@
 
     @yield('component-test') --}}
 
+    @include('componentes.loghi')
+
     @include('componentes.footer')
 
     @include('componentes.social')

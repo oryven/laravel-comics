@@ -7,7 +7,7 @@
     <title>Document</title>
 </head>
 <body>
-    <section>
+    <section class="section-social">
         <div class="container">
           <button>Sign Up Now!</button>
     
