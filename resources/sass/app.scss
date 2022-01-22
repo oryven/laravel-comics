@@ -8,6 +8,101 @@
     color: #505f6d;
 }
 
+// header
+
+.container-dc-power {
+    height: 20px;
+    background-color: rgb(32, 144, 189);
+    text-align: end;
+    display: flex;
+    align-items: center;
+    div {
+        width: 80%;
+        margin: auto;
+        color: white;
+        font-size: 10px;
+    };
+}
+
+header {
+    height: 100px;
+    display: flex;
+    // justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    div {
+        width: 25%;
+    }
+    
+    img {
+    width: 60px;
+    height: 60px;
+        }
+        ul {
+            display: flex;
+            align-items: center;
+            li {
+                display: inline-block;
+                margin: 0 10px;
+                font-size: 12px;
+                font-weight: bold;
+                padding: 40px 0;
+                &:hover {
+                    color:#0c7cec;
+                    cursor: pointer;
+                }
+                &.active{
+                    color:#0c7cec;
+                    border-bottom: 5px solid;
+                }
+            }
+        }
+    }
+
+    .jumbo {
+        width: 100%;
+        height: 300px;
+        background-size: cover;
+        background-image: url("https://guidatv.sky.it/uuid/ca94147c-0b96-4520-bba0-6da3143501ef/background?md5ChecksumParam=2d28d19e2dc7f5a195ab1cd38c687aac&tr=n-hero_desktop_1920");
+        background-position:inherit;
+    }
+
+// comics
+
+.container-comics {
+    background-color: #1a1a1a;
+    position: relative;
+    .current_series{
+        padding: 0 30px;
+        height: 40px;
+        background-color: #008CFF ;
+        line-height: 40px;
+        text-align: center;
+        color:white;
+        font-size: 14px;
+        position: absolute;
+        left: 100px;
+        top: -10px;
+        font-weight: bold;
+        border: none;
+    }
+    .container {
+        width: 80%;
+        margin: auto;
+        display: flex;
+        .thumbsComics {
+            width: calc(100% / 6 - 20px);
+            margin: 50px 10px;
+            img {
+                width: 100%; 
+            }
+            div{
+                color:white;
+            };
+        }
+    }
+}
 // loghi
 
 .section-loghi {

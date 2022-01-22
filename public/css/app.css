@@ -8,6 +8,108 @@
   color: #505f6d;
 }
 
+.container-dc-power {
+  height: 20px;
+  background-color: #2090bd;
+  text-align: end;
+  display: flex;
+  align-items: center;
+}
+
+.container-dc-power div {
+  width: 80%;
+  margin: auto;
+  color: white;
+  font-size: 10px;
+}
+
+header {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+}
+
+header div {
+  width: 25%;
+}
+
+header img {
+  width: 60px;
+  height: 60px;
+}
+
+header ul {
+  display: flex;
+  align-items: center;
+}
+
+header ul li {
+  display: inline-block;
+  margin: 0 10px;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 40px 0;
+}
+
+header ul li:hover {
+  color: #0c7cec;
+  cursor: pointer;
+}
+
+header ul li.active {
+  color: #0c7cec;
+  border-bottom: 5px solid;
+}
+
+.jumbo {
+  width: 100%;
+  height: 300px;
+  background-size: cover;
+  background-image: url("https://guidatv.sky.it/uuid/ca94147c-0b96-4520-bba0-6da3143501ef/background?md5ChecksumParam=2d28d19e2dc7f5a195ab1cd38c687aac&tr=n-hero_desktop_1920");
+  background-position: inherit;
+}
+
+.container-comics {
+  background-color: #1a1a1a;
+  position: relative;
+}
+
+.container-comics .current_series {
+  padding: 0 30px;
+  height: 40px;
+  background-color: #008CFF;
+  line-height: 40px;
+  text-align: center;
+  color: white;
+  font-size: 14px;
+  position: absolute;
+  left: 100px;
+  top: -10px;
+  font-weight: bold;
+  border: none;
+}
+
+.container-comics .container {
+  width: 80%;
+  margin: auto;
+  display: flex;
+}
+
+.container-comics .container .thumbsComics {
+  width: calc(16.6666666667% - 20px);
+  margin: 50px 10px;
+}
+
+.container-comics .container .thumbsComics img {
+  width: 100%;
+}
+
+.container-comics .container .thumbsComics div {
+  color: white;
+}
+
 .section-loghi {
   background-color: #0282f9;
   height: 120px;
