@@ -8,7 +8,7 @@
 
 <header>
     <div>
-        <img src="../assets/img/dc-logo.png" alt="">
+        <img src="{{asset('storage/assets/img/dc-logo.png')}}" alt="">
     </div>
     <div>
         <ul>

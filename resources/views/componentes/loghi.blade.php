@@ -3,12 +3,12 @@
 
         <div>
             <div>
-                <img src="../assets/img/buy-comics-digital-comics.png" alt="">
+                <img src="{{asset('storage/assets/img/buy-comics-digital-comics.png')}}" alt="">
                 <div>digital comics</div>
             </div>
                     
             <div>
-                <img src="../assets/img/buy-comics-merchandise.png" alt="">
+                <img src="{{asset('storage/assets/img/buy-comics-merchandise.png')}}" alt="">
                 <div>merchandise</div>
             </div>
 

@@ -51,7 +51,7 @@
 
             <div class="logo">
 
-                <img src="../assets/img/dc-logo-bg.png" alt="">
+                <img src="{{asset('storage/assets/img/dc-logo-bg.png')}}" alt="">
 
             </div>
         </div>
@@ -65,11 +65,14 @@
           <div>
           <div>Follow Us</div>
             <ul>
-              <li><img src="../assets/img/footer-facebook.png" alt=""></li>
-              <li><img src="../assets/img/footer-twitter.png" alt=""></li>
-              <li><img src="../assets/img/footer-youtube.png" alt=""></li>
-              <li><img src="../assets/img/footer-pinterest.png" alt=""></li>
-              <li><img src="../assets/img/footer-periscope.png" alt=""></li>
+              
+              <li><img src="{{asset('/storage/assets/img/footer-pinterest.png')}}" alt=""></li>
+              <li><img src="{{asset('/storage/assets/img/footer-periscope.png')}}" alt=""></li>
+              <li><img src="{{asset('/storage/assets/img/footer-youtube.png')}}" alt=""></li>
+
+              <li><img src="{{asset('/storage/assets/img/footer-facebook.png')}}" alt=""></li>
+              <li><img src="{{asset('/storage/assets/img/footer-twitter.png')}}" alt=""></li>
+
             </ul>
           </div>
     
