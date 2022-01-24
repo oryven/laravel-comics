@@ -112,9 +112,14 @@ header ul li.active {
   color: white;
 }
 
+.section-blue {
+  height: 50px;
+  background-color: #008CFF;
+}
+
 .container-comic {
   width: 60%;
-  margin: 50px auto;
+  margin: 50px auto 0 auto;
 }
 
 .container-comic .container {
@@ -125,25 +130,26 @@ header ul li.active {
   width: 30%;
 }
 
-.section-loghi {
+.section-loghi-comic {
   background-color: #0282f9;
-  height: 120px;
+  height: 50px;
+  margin-top: 50px;
 }
 
-.section-loghi div {
+.section-loghi-comic div {
   display: flex;
   align-items: center;
+  justify-content: space-around;
   color: white;
-  width: 80%;
-  margin: auto;
   height: 100%;
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 10px;
 }
 
-.section-loghi div img {
-  width: 40px;
-  margin-right: 10px;
+.section-loghi-comic div img {
+  width: 20px;
+  margin: 10px;
+  color: gray;
 }
 
 /* footer */
