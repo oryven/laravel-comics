@@ -7,7 +7,71 @@ use Illuminate\Http\Request;
 class HomeController extends Controller
 {
     public function home() {
-        return view('home');
+
+        $arrComics = [
+
+            [
+                'image' => 'storage/assets/img/superman.jpg',
+                'title' => 'Superman'
+            ],
+    
+            [
+                'image' => 'storage/assets/img/superman.jpg',
+                'title' => 'Superman'
+            ],
+    
+            [
+                'image' => 'storage/assets/img/superman.jpg',
+                'title' => 'Superman'
+            ],
+    
+            [
+                'image' => 'storage/assets/img/superman.jpg',
+                'title' => 'Superman'
+            ],
+    
+            [
+                'image' => 'storage/assets/img/superman.jpg',
+                'title' => 'Superman'
+            ],
+    
+            [
+                'image' => 'storage/assets/img/superman.jpg',
+                'title' => 'Superman'
+            ],
+    
+            [
+                'image' => 'storage/assets/img/superman.jpg',
+                'title' => 'Superman'
+            ],
+    
+            [
+                'image' => 'storage/assets/img/superman.jpg',
+                'title' => 'Superman'
+            ],
+    
+            [
+                'image' => 'storage/assets/img/superman.jpg',
+                'title' => 'Superman'
+            ],
+    
+            [
+                'image' => 'storage/assets/img/superman.jpg',
+                'title' => 'Superman'
+            ],
+    
+            [
+                'image' => 'storage/assets/img/superman.jpg',
+                'title' => 'Superman'
+            ],
+    
+            [
+                'image' => 'storage/assets/img/superman.jpg',
+                'title' => 'Superman'
+            ],
+    
+        ];
+        return view('home',compact('arrComics'));
     }
 
     public function comic() {
