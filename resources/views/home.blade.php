@@ -9,39 +9,45 @@
     <div class="container">
     
         <div class="thumbsComics">
-    
-            <img src="{{asset('storage/assets/img/superman.jpg')}}" alt="">
+            <a href="{{route('comic')}}">
+                <img src="{{asset('storage/assets/img/superman.jpg')}}" alt="">
                 <div>Superman</div>
+            </a>
         </div>    
         
         <div class="thumbsComics">
-    
-            <img src="{{asset('storage/assets/img/superman.jpg')}}" alt="">
+            <a href="{{route('comic')}}">
+                <img src="{{asset('storage/assets/img/superman.jpg')}}" alt="">
                 <div>Superman</div>
+            </a>
         </div>  
 
         <div class="thumbsComics">
-    
-            <img src="{{asset('storage/assets/img/superman.jpg')}}" alt="">
+            <a href="{{route('comic')}}">
+                <img src="{{asset('storage/assets/img/superman.jpg')}}" alt="">
                 <div>Superman</div>
+            </a>
         </div>  
 
         <div class="thumbsComics">
-    
-            <img src="{{asset('storage/assets/img/superman.jpg')}}" alt="">
+            <a href="{{route('comic')}}">
+                <img src="{{asset('storage/assets/img/superman.jpg')}}" alt="">
                 <div>Superman</div>
+            </a>
         </div>  
 
         <div class="thumbsComics">
-    
-            <img src="{{asset('storage/assets/img/superman.jpg')}}" alt="">
+            <a href="{{route('comic')}}">
+                <img src="{{asset('storage/assets/img/superman.jpg')}}" alt="">
                 <div>Superman</div>
+            </a>
         </div>  
 
         <div class="thumbsComics">
-    
-            <img src="{{asset('storage/assets/img/superman.jpg')}}" alt="">
+            <a href="{{route('comic')}}">
+                <img src="{{asset('storage/assets/img/superman.jpg')}}" alt="">
                 <div>Superman</div>
+            </a>
         </div>  
     </div>  
 </div>

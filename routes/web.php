@@ -18,5 +18,5 @@ Route::get('/', function () {
 }) -> name('home');
 
 Route::get('comic', function () {
-    return view('view.comic');
+    return view('comic');
 }) -> name('comic');

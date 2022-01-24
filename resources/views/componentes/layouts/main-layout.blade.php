@@ -12,7 +12,7 @@
 
     @yield('content')
 
-    {{-- @yield('component-test') --}} 
+    @yield('content-comic') 
 
     @include('componentes.loghi')
 
