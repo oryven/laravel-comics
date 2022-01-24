@@ -12,10 +12,6 @@
 
     @yield('content')
 
-    @yield('content-comic') 
-
-    @include('componentes.loghi')
-
     @include('componentes.footer')
 
 </body>

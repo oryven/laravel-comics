@@ -52,4 +52,6 @@
     </div>  
 </div>
 
+@include('componentes.loghi')
+
 @endsection
