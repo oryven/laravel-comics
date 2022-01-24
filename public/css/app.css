@@ -112,6 +112,19 @@ header ul li.active {
   color: white;
 }
 
+.container-comic {
+  width: 60%;
+  margin: 50px auto;
+}
+
+.container-comic .container {
+  display: flex;
+}
+
+.container-comic img {
+  width: 30%;
+}
+
 .section-loghi {
   background-color: #0282f9;
   height: 120px;

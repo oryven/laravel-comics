@@ -106,6 +106,16 @@ header {
     }
 }
 
+.container-comic {
+    width: 60%;
+    margin: 50px auto;
+    .container {
+        display: flex;
+    }
+    img {
+        width: 30%;
+    }
+}
 // loghi
 
 .section-loghi {
