@@ -13,17 +13,17 @@
             </div>
 
             <div>
-                <img src="../assets/img/buy-comics-shop-locator.png" alt="">
+                <img src="{{asset('storage/assets/img/buy-comics-shop-locator')}}" alt="">
                 <div>shop</div>
             </div>
 
             <div>
-                <img src="../assets/img/buy-comics-subscriptions.png" alt="">
+                <img src="{{asset('storage/assets/img/buy-comics-subscriptions')}}" alt="">
                 <div>subscriptions</div>
             </div>
 
             <div>
-                <img src="../assets/img/buy-dc-power-visa.svg" alt="">
+                <img src="{{asset('storage/assets/img/buy-dc-power-visa.svg')}}"alt="">
                 <div>dc power visa</div>
             </div>
         </div>

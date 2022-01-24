@@ -10,37 +10,37 @@
     
         <div class="thumbsComics">
     
-            <img src="https://images.everyeye.it/img-notizie/superman-action-comics-1025-presenta-nemico-morte-inaspettata-v3-470523-900x900.jpg" alt="">
+            <img src="{{asset('storage/assets/img/superman.jpg')}}" alt="">
                 <div>Superman</div>
         </div>    
         
         <div class="thumbsComics">
     
-            <img src="https://images.everyeye.it/img-notizie/superman-action-comics-1025-presenta-nemico-morte-inaspettata-v3-470523-900x900.jpg" alt="">
+            <img src="{{asset('storage/assets/img/superman.jpg')}}" alt="">
                 <div>Superman</div>
         </div>  
 
         <div class="thumbsComics">
     
-            <img src="https://images.everyeye.it/img-notizie/superman-action-comics-1025-presenta-nemico-morte-inaspettata-v3-470523-900x900.jpg" alt="">
+            <img src="{{asset('storage/assets/img/superman.jpg')}}" alt="">
                 <div>Superman</div>
         </div>  
 
         <div class="thumbsComics">
     
-            <img src="https://images.everyeye.it/img-notizie/superman-action-comics-1025-presenta-nemico-morte-inaspettata-v3-470523-900x900.jpg" alt="">
+            <img src="{{asset('storage/assets/img/superman.jpg')}}" alt="">
                 <div>Superman</div>
         </div>  
 
         <div class="thumbsComics">
     
-            <img src="https://images.everyeye.it/img-notizie/superman-action-comics-1025-presenta-nemico-morte-inaspettata-v3-470523-900x900.jpg" alt="">
+            <img src="{{asset('storage/assets/img/superman.jpg')}}" alt="">
                 <div>Superman</div>
         </div>  
 
         <div class="thumbsComics">
     
-            <img src="https://images.everyeye.it/img-notizie/superman-action-comics-1025-presenta-nemico-morte-inaspettata-v3-470523-900x900.jpg" alt="">
+            <img src="{{asset('storage/assets/img/superman.jpg')}}" alt="">
                 <div>Superman</div>
         </div>  
     </div>  
