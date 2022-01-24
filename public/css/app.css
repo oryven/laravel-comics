@@ -130,6 +130,27 @@ header ul li.active {
   width: 30%;
 }
 
+.section-loghi {
+  background-color: #0282f9;
+  height: 120px;
+}
+
+.section-loghi div {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+  height: 100%;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.section-loghi div img {
+  width: 40px;
+  margin: 10px;
+  color: gray;
+}
+
 .section-loghi-comic {
   background-color: #0282f9;
   height: 50px;

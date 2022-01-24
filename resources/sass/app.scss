@@ -121,6 +121,25 @@ header {
 }
 // loghi
 
+.section-loghi {
+    background-color: #0282f9;
+    height: 120px;
+    div {
+       
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        color: white;
+        height: 100%;
+        text-transform: uppercase;
+        font-size: 14px;
+        img {
+            width: 40px;
+            margin: 10px ;
+            color: gray;
+        }
+    }
+}
 .section-loghi-comic {
     background-color: #0282f9;
     height: 50px;
